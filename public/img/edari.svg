@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="57" height="57" viewBox="0 0 57 57">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_166" data-name="Rectangle 166" width="23.635" height="25.082" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Groupe_858" data-name="Groupe 858" transform="translate(-1383.5 -682.625)">
+    <circle id="Ellipse_35" data-name="Ellipse 35" cx="28.5" cy="28.5" r="28.5" transform="translate(1383.5 682.625)" fill="#001c96"/>
+    <g id="Groupe_869" data-name="Groupe 869" transform="translate(1347 642.875)">
+      <g id="Groupe_868" data-name="Groupe 868" transform="translate(52.606 55.459)" clip-path="url(#clip-path)">
+        <path id="Tracé_1326" data-name="Tracé 1326" d="M91.088,105.422a2.99,2.99,0,1,0,2.99,2.99,2.99,2.99,0,0,0-2.99-2.99" transform="translate(-72.135 -86.32)" fill="#fff"/>
+        <path id="Tracé_1327" data-name="Tracé 1327" d="M4.306,15.966l19.33-1.9c0-1.141,0-2.38,0-2.421A12.741,12.741,0,0,0,22.445,6.31C17.672-3.639.207-1.808.01,11.7-.258,17.521,5.2,23.176,10.543,22.843V19.98a7.537,7.537,0,0,1-6.237-4.014M17.377,10.5,3.841,11.788C4,3.843,15.569,2.223,17.377,10.5" transform="translate(0 0)" fill="#0c9"/>
+      </g>
+    </g>
+  </g>
+</svg>

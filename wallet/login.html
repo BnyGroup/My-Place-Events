@@ -1,0 +1,164 @@
+<html lang="fr">
+<head>
+<title>Mike | Wifi</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="expires" content="-1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="shortcut icon" href="assets/images/Logo.png" type="image/x-icon">
+<link rel="icon" href="assets/images/Logo.png" type="image/x-icon">
+<script src="https://kit.fontawesome.com/1d76babbc6.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="assets/css/Newstyle.css">
+</head>
+<body>
+<style type="text/css">
+@font-face {font-family: "FranceTV";
+  src: url("../assets/fonts/FranceTV.eot"),
+  url("assets/fonts/FranceTV.eot?#iefix") format("embedded-opentype"),
+  url("assets/fonts/FranceTV.woff2") format("woff2"),
+  url("assets/fonts/FranceTV.woff") format("woff"),
+  url("assets/fonts/FranceTV.ttf") format("truetype"),
+  url("assets/fonts/FranceTV.svg#Brown-Bold") format("svg");
+}
+@font-face {font-family: "Brown";
+  src: url("../assets/fonts/Brown.eot"),
+  url("assets/fonts/Brown.eot?#iefix") format("embedded-opentype"),
+  url("assets/fonts/Brown.woff2") format("woff2"),
+  url("assets/fonts/Brown.woff") format("woff"),
+  url("assets/fonts/Brown.ttf") format("truetype"),
+  url("assets/fonts/Brown.svg#Brown-Bold") format("svg");
+}
+</style>
+$(if chap-id)
+<form name="sendin" action="$(link-login-only)" method="post">
+<input type="hidden" name="username" />
+<input type="hidden" name="password" />
+<input type="hidden" name="dst" value="http://www.google.fr" />
+<input type="hidden" name="popup" value="false" />
+</form>
+<script type="text/javascript" src="/md5.js"></script>
+<script type="text/javascript">function doLogin(){document.sendin.username.value=document.login.username.value;document.sendin.password.value=hexMD5("$(chap-id)"+document.login.password.value+"$(chap-challenge)");document.sendin.submit();return false}</script>
+$(endif)
+<div class="container">
+<div class="TwoSide">
+<div class="LefttSide">
+</div>
+<div class="RightSide">
+<a class="hiddenanchor" id="to_mikewifi"></a>
+<a class="hiddenanchor" id="tologin"></a>
+<a class="hiddenanchor" id="to_mikegrant"></a>
+<a class="hiddenanchor" id="to_services"></a>
+<a class="hiddenanchor" id="to_contacts"></a>
+<div id="wrapper">
+<form id="login" role="form" name="login" action="$(link-login-only)" method="post" $(if chap-id) onSubmit="return doLogin()" $(endif) class="login-form animate form">
+<div class="content">
+$(if error)<br /><div class="text-center" style="color:#e20000;font-size:1.3em;font-weight:bold;text-align:center">Utilisateur Invalide</div>$(endif)
+<h1>Connectez vous!</h1>
+<form role="form" name="login" action="$(link-login-only)" method="post" $(if chap-id) onSubmit="return doLogin()" $(endif) class="login-form">
+<input type="hidden" name="dst" value="http://www.google.fr" />
+<input type="hidden" name="popup" value="false" />
+<div class="form-group">
+<label class="sr-only" for="username">Nom D'utilisateur</label>
+<input type="text" name="username" placeholder="Nom D'utilisateur" value="$(username)" class="form-username form-control" id="form-username">
+</div>
+<div class="form-group">
+<label class="sr-only" for="password">Mot de passe</label>
+<input type="password" name="password" placeholder="Mot de passe" class="form-password form-control" id="form-password">
+</div>
+<button type="submit" class="btn btn-connecte">Connexion</button>
+<p class="NB">NB: ASSUREZ VOUS BIEN D'ÊTRE DANS LA ZONE DE COUVERTURE DU WIFI AVANT D'ACHETER UN FORFAIT SVP
+</form>
+</div>
+</form>
+<div id="mikewifi" class="animate form content">
+<h1>Forfait Wifi</h1>
+<p>Profitez d'une connexion internet WIFI dans notre zone de couverture.
+<p>Vous disposez de plusieurs forfaits selon votre convenance.
+<p><b>Achetez un forfait</b> dès à présent et connectez-vous à internet <b>illimité 24/7</b>.
+<p class="NB">NB: ASSUREZ VOUS BIEN D'ÊTRE DANS LA ZONE DE COUVERTURE DU WIFI AVANT D'ACHETER UN FORFAIT SVP
+<h3><span>Forfait 24 heures</span>: <b>500 F</b></h3>
+<h3><span>Forfait 3 Jours</span>: <b>2.000 F</b></h3>
+<h3><span>Forfait 7 Jours</span>: <b>3.000 F</b></h3>
+<h3><span>Forfait 30 Jours</span>: <b>10.000 F</b> <span class="asterix">(Un compte pour 3 personnes MAX)</span></h3>
+<h3><span>Forfait 30 Jours +</span>: <b>15.000 F</b> <span class="asterix">(Un compte pour 8 personnes MAX)</span></h3>
+<center><button class="buttonpay"><a href="https://wa.me/22508098284" style="color: #fff;padding: 10px"><i class="fab fa-whatsapp-square" style="font-size: 35px;margin: 0 5px"></i> Achetez un pass</a></button></center>
+</div>
+<div id="mikegrant" class="animate form content">
+<div class="Logo"><img src="assets/images/LogoMikeGrant-Official1.svg" style="width:40%;margin:auto"></div>
+<p>Mike Grant est une Stra-Up Marketing Digital. Nous offrons des services à des entreprises dans un besoin de communication, et de visibilté.</p>
+<p>Nous sommes une équipe qui allie professionnalisme, et disponibilité pour répondre au mieux à vos besoins.</p>
+<p>Nous vous accompagnons tout au long de vos besoins avec de conseil et une assistance qui convient le plus à votre image.</p>
+<p>NOUS INTERVENONS DANS: <b style="text-transform: uppercase;">Web</b>,<b style="text-transform: uppercase;">Graphisme</b>, <b style="text-transform: uppercase;">Marketing Digital</b> ...</p>
+<h3><a style="color: #660066" href="https://www.facebook.com/Web.Graphisme.MarketingDigital/" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></h3>
+<h3><a style="color: #660066" href="https://www.artstation.com/mikegrant/albums/all" target="_blank"><i class="fas fa-tasks"></i> Portfolio</a></h3>
+<h3><a style="color: #660066" href="https://wa.me/2250505271305"><i class="fab fa-whatsapp-square"></i> Whatsap Business</a></h3>
+</div>
+<div id="services" class="animate form content">
+<div class="Logo"><img src="assets/images/LogoMikeGrant-Official1.svg" style="width:40%;margin:auto"></div>
+<h1 style="margin-top:30px">Communication Digitale</h1>
+<ul>
+<li>Site Web</li>
+<li>Prestataire</li>
+<li>Newsletter / Analytics</li>
+<li>Réseaux Sociaux</li>
+<li>Pré Prod / Post Prod</li>
+<li>Application Mobile</li>
+<li>Référencement</li>
+</ul>
+<h3>Identité Visuelle</h3>
+<ul>
+<li>Carte de Visite</li>
+<li>Logo</li>
+<li>Habillage TV</li>
+<li>Réseaux Sociaux</li>
+<li>UI / UX Design</li>
+<li>Flyers</li>
+<li>Kakémono</li>
+</ul>
+</div>
+<div id="contacts" class="animate form content">
+<h1>Contacts</h1>
+<p>Pour toutes informations, Forfait internet, ou informations relatives à l’un de nos services, n’hésitez surtout pas à nous contacter.</p>
+<button class="buttonpay"><a href="https://wa.me/22508098284" style="color: #fff;padding: 10px"><i class="fab fa-whatsapp-square" style="font-size: 35px;margin: 0 5px"></i> Nous écrire</a></button></center>
+<button class="buttonpay" style="background-color: #660066"><a href="tel:070898284" style="color: #fff;padding: 10px"><i class="fas fa-phone-square-alt" style="font-size: 35px;margin: 0 5px"></i> Appelez nous</a></button></center>
+</div><div id="contacts" class="animate form content">
+<h1>Contacts</h1>
+<p>Pour toutes informations, Forfait internet, ou informations relatives à l’un de nos services, n’hésitez surtout pas à nous contacter.</p>
+<button class="buttonpay"><a href="https://wa.me/22508098284" style="color: #fff;padding: 10px"><i class="fab fa-whatsapp-square" style="font-size: 35px;margin: 0 5px"></i> Nous écrire</a></button></center>
+<button class="buttonpay" style="background-color: #660066"><a href="tel:070898284" style="color: #fff;padding: 10px"><i class="fas fa-phone-square-alt" style="font-size: 35px;margin: 0 5px"></i> Appelez nous</a></button></center>
+</div>
+<div class="conect"><a href="#tologin"><i class="fas fa-house-user"></i></a></div>
+</div>
+<div class="FooterMenu">
+<div class="MenuItem first">
+<a href="#to_mikewifi">
+<i class="fas fa-wifi" style="margin: 5px 0"></i>
+<span>Forfait Wifi</span>
+</a>
+</div>
+<div class="MenuItem second">
+<a href="#to_mikegrant">
+<i class="fas fa-user-tie" style="margin: 5px 0"></i>
+<span>Mike Grant</span>
+</a>
+</div>
+<div class="MenuItem third">
+<a href="#to_services">
+<i class="fas fa-clipboard-list" style="margin: 5px 0"></i>
+<span>Services</span>
+</a>
+</div>
+<div class="MenuItem fourth">
+<a href="#to_contacts">
+<i class="fas fa-sms" style="margin: 5px 0"></i>
+<span>Contacts</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript">document.login.username.focus();</script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+@font-face {
+    font-family: perso-century;
+    src: url(../font/cebswfte.ttf);
+}
+
+/* Style for custom event */
+body.c-396 .page-title h2{
+    color: #000;
+}
+
+body.c-396 strong.breadcrumb_last.primary-color {
+    color: #f48000;
+}
+
+body.c-396 .fil-ariane-light .breadcrumb-2 a {
+    color: #000 !important;
+}
+
+body.c-396 .third-color {
+    color: #000000 !important;
+}
+
+body.c-396 .primary-color {
+    color: #f48000 !important;
+}
+
+body.c-396 .badge{
+    background: #f48000 !important;
+}
+
+body.c-396 .badge.category span{
+    color: #000 !important;
+}
+
+body.c-396 .social-icon-box a{
+    color: #f48000 !important;
+}
+
+body.c-396 .register-btn {
+    background: #000000;
+    color: #f48000;
+}
+
+body.c-396 .descripton-content p{
+    color: #000;
+    font-family: perso-century !important;
+}
+
+body.c-396 .descripton-content h3{
+    color: #000;
+}
+
+body.c-396 button.btn.mb-2.ctog{
+    background: #000000;
+    color: #f48000;
+}
+
+body.c-396 button.btn.mb-2.ctog.secondary-bg {
+    color: #000 !important;
+    background: #f48000 !important;
+}
+
+body.c-396 .social-logo-detail i{
+    background: #000;
+}
+body.c-396 .descripton-content p, body.c-396 .descripton-content ul{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+body.c-396 .event_socialmedia a{
+    background: #f48000;
+    color: #000000;
+    font-weight: 600;
+}
+
+body.c-396 .event_socialmedia a i{
+    background: #000000;
+}
+
+body.c-396 footer.footer-1.third-bg.text-center-xs {
+    background: #000 !important;
+}
+
+body.c-396 div#copyright {
+    background: #19191a;
+}
+
+body.c-396 span.secondary-color {
+    color: #f48000 !important;
+}
+
+body.c-396 .event_socialmedia a, body.c-396 .descripton-content-title{
+    text-align: center;
+}
+
+body.c-396 input#btnBookTicket {
+    background: #000;
+    color: #f48000;
+    font-weight: 900;
+}
+
+body.c-396 a.btn.btn-block.btn-lg.custom-rounded.login {
+    background: #f48000;
+    color: #000;
+    font-weight: 900;
+}
+
+body.c-396 input.btn.btn-payment.text-uppercase {
+    background: #000;
+    color: #f48000;
+    font-weight: 900;
+}
+
+body.c-396 .secondary-color {
+    color: #f48000 !important;
+}

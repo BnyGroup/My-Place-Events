@@ -1,0 +1,113 @@
+<?php
+
+use Illuminate\Http\Request;
+
+/*
+|--------------------------------------------------------------------------
+| API Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register API routes for your application. These
+| routes are loaded by the RouteServiceProvider within a group which
+| is assigned the "api" middleware group. Enjoy building your API!
+|
+*/
+/* login */
+Route::post('login','API\UserController@login');
+
+/* Registe Front User */
+Route::post('registeruser','API\Frontcontroller@registeruser');
+
+/* Forget Pwd */
+Route::post('forgotpassword','API\Frontcontroller@forgotpassword');
+
+/*Password_update*/
+Route::post('updatepassword','API\Frontcontroller@password_update');
+
+Route::middleware('auth:api')->get('/user', function (Request $request) {
+    return $request->user();
+});
+
+/* API FOR EVENTZ BOT */
+	/* bot filter events */
+	/**/Route::post('bot-eventlist','API\EventlistController@botEventsList');
+/* API FOR EVENTZ BOT */
+
+Route::group(['middleware' => 'auth:api'],function(){
+
+	/* Organization APP API */
+	Route::post('event/live','API\EventsDashController@liveEvent');
+	Route::post('event/past','API\EventsDashController@pastEvents');
+	Route::post('event/dashbord/{id}','API\EventsDashController@eventDashbord');
+	Route::post('order/ticktes/{id}','API\EventsDashController@orderTickets');
+	Route::post('ticketcode/{qrcode}/{eventuid}','API\EventsDashController@ticketCode');
+	Route::get('logout','API\UserController@log_out');
+	/* Organization APP API */
+
+
+	// //For Display Event List
+	// Route::get('event-list','API\EventsDashController@eventlist');
+
+	/* Feature Event List */
+	/**/Route::get('event-list','API\EventlistController@featureeventlist');
+	
+	/*Single Event List */
+	/**/Route::get('singlevent/{id}','API\EventlistController@single_event');
+	/*Event Ticket */
+	/**/Route::post('event/ticket','API\EventlistController@single_event_ticket');
+
+	/*upcoming events */
+	Route::get('upcoming/event','API\EventlistController@upcomingEvents');
+	/*past events */
+	Route::get('past/event','API\EventlistController@pastEvents');
+
+
+	/*select Category */
+	/**/Route::get('category','API\EventlistController@getCategoryList');
+	/*Perticuler Category Eventlist*/
+	/**/Route::post('category/event','API\EventlistController@categorywiseevent');
+	/*Today events*/
+	/**/Route::post('today/event','API\EventlistController@todayEvents');
+	/*Tomoorow Events*/
+	/**/Route::post('tomorrow/event','API\EventlistController@tomorrowEvents');
+	/*Thisweek Events*/
+	/**/Route::post('thisweek/event','API\EventlistController@thisweekEvents');
+
+
+	/*bookmark events */
+	/**/Route::get('bookmark/event','API\EventlistController@savedEvents'); /* Set Paninate */
+	/**/Route::post('setbookmark','API\EventlistController@savedBookmark');
+
+
+	/*edit user profile */
+	/**/Route::get('user/profile','API\Frontcontroller@userProfile');
+	/**/Route::post('user/update/profile','API\Frontcontroller@userUpdate');
+
+
+	// order booking 
+	/**/Route::post('order/book','API\BookingController@orderBook');
+	/**/Route::post('order/generate','API\BookingController@register');
+	/**/Route::post('order/store','API\BookingController@orderStore');
+
+	/* Order Payment - stripe */
+	/**/Route::post('checked-card','API\PaymentController@checkedCardData');
+	
+	// Order Suucess or not
+	/**/Route::post('order/done','API\BookingController@orderDone');		
+	/**/Route::post('order/cancel','API\BookingController@orderCancel');
+
+
+	// order booking
+	/**/Route::get('order/summery/{order_id}','API\BookingController@orderSummery');
+	/**/Route::get('order/tickets/upcomeing','API\BookingController@upcomingOrder');
+	/**/Route::get('order/tickets/past','API\BookingController@pastOrder');
+	/**/Route::get('order/tickets/{order_id}','API\BookingController@ordTickets');
+
+	/* */
+	Route::get('user-language/{id}','API\UserLanguageController@getUserLanguage');
+
+});
+
+
+
+

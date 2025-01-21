@@ -1,0 +1,45 @@
+<html lang="fr">
+<head>
+<title>MY PLACE | E-WALLET</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="expires" content="-1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="shortcut icon" href="assets/images/FAV.png" type="image/x-icon">
+<link rel="icon" href="assets/images/FAV.png" type="image/x-icon">
+</head>
+<body>
+<style type="text/css">@font-face{font-family:"FranceTV";src:url(../assets/fonts/FranceTV.eot),url(assets/fonts/FranceTV.eot?#iefix) format("embedded-opentype"),url(assets/fonts/FranceTV.woff2) format("woff2"),url(assets/fonts/FranceTV.woff) format("woff"),url(assets/fonts/FranceTV.ttf) format("truetype"),url(assets/fonts/FranceTV.svg#Brown-Bold) format("svg")}@font-face{font-family:"Brown";src:url(../assets/fonts/Brown.eot),url(assets/fonts/Brown.eot?#iefix) format("embedded-opentype"),url(assets/fonts/Brown.woff2) format("woff2"),url(assets/fonts/Brown.woff) format("woff"),url(assets/fonts/Brown.ttf) format("truetype"),url(assets/fonts/Brown.svg#Brown-Bold) format("svg")}body{line-height:20px;background-color:#b9b9b9;color:#000;font-size:16px;-moz-transition:all .3s;-webkit-transition:all .3s;-ms-transition:all .3s;transition:all .3s;margin:0;font-family:FranceTV}.container{max-width:550px;margin:auto;border:5px solid #fff;background:#f1f1f1;position:absolute;left:0;width:550px;right:0;top:0;bottom:0;height:70%}.logo_header{color:#fff;max-width:50%;margin:30px auto;text-align:center;max-height:170px;flex-direction:column;align-items:center;}.Wallet_loading{margin:40px 0 0;font-size:22px}span.dot{font-size:25px;font-family:"Brown"}span.dot.third{color:#00024f}span.dot.second{color:#b90b8d}span.dot.first{color:#feb00a}.header{border-radius: 0 0 30px 0;background-color: #242645}.header,.logo_header,.paginantion{display:-webkit-box;display:-moz-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}.formBlock{margin: 30px;position: relative}span.error{color: #ff0000;font-size: 11px;position: absolute;right: 0;display: none}input{font-size: 18px;background: #c5c5c5;padding-left: 20px;}form.search-form{position: relative;text-align: center}button.btn.btn-connecte{color: #fff;padding: 10px;font-size: 20px;background: #b02f84;}button,input{width: 100%;border-radius: 5px;border: 0;font-family: inherit;min-height: 50px;margin: 5px 0;}div#wrapper:before{content: '';position: absolute;height: 70%;width: 100%;bottom: 0;background: url(assets/images/WALLET-APP-BG.png);background-size: 115%;background-position: center;z-index: 0;opacity: .2;}.paginantion,.logo_header{justify-content: center}span.pagin{position: relative;width: 15px;height: 15px;margin: 0 10px;border-radius: 50%;background: #cecece;}span.pagin.active{background: #feb00a}.paginantion:before{content: '';position: absolute;height: 1px;width: 80px;left: 0;right: 0;background: #cecece;margin: 7px auto;z-index: 0;}@media only screen and (max-width: 550px){.container{height: 80%;width: 95%}.Wallet_loading{font-size: 15px;margin: 20px 0 0;}body{background: #000000;background-position: center;background-size: 50%;background-image: url(assets/images/WALLET-APP-BG.png)}.paginantion{margin: 20% 0 0;}}  </style>
+<div class="container">
+<div id="wrapper" style="height: 100%">
+<div class="header">
+<div class="logo_header">
+<img src="assets/images/LOGO-APP.svg" title="Logo My Place Events" alt="Logo My Place Events" style="max-width: 50%" />
+<div class="Wallet_loading">E-Wallet Reloading <span class="dot first">.</span><span class="dot second">.</span><span class="dot third">.</span></div>
+</div>
+</div>
+<div class="formBlock">
+<form role="form" autocomplete="off" name="serch" action="" method="post" class="search-form">
+<h1>Informations Client</h1>
+<p>Vérifions la validité du client</p>
+<div class="form-group">
+<input autocomplete="off" type="text" name="username" placeholder="Nom" class="form-username form-control" id="form-username">
+<span class="error">Champs obligatoire</span>
+</div>
+<div class="form-group">
+<input type="email" name="email" placeholder="Email" class="form-password form-control" id="form-email" autocomplete="off">
+<span class="error">Champs obligatoire</span>
+</div>
+<div class="form-group">
+<input autocomplete="false" type="password" name="tel" placeholder="Numéro de téléphone" class="form-password form-control" id="form-password">
+<span class="error">Champs obligatoire</span>
+</div>
+<button type="submit" class="btn btn-connecte">Vérifier le compte</button>
+</form>
+<div class="paginantion"><span class="pagin first active"></span><span class="pagin second"></span><span class="pagin third"></span></div>
+</div>
+</div>
+</div>
+</body>
+</html>

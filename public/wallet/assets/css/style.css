@@ -1,0 +1,150 @@
+@font-face{font-family:"FranceTV";src:url(../../fonts/FranceTV.eot),url(../fonts/FranceTV.eot?#iefix) format("embedded-opentype"),url(../fonts/FranceTV.woff2) format("woff2"),url(../fonts/FranceTV.woff) format("woff"),url(../fonts/FranceTV.ttf) format("truetype"),url(../fonts/FranceTV.svg#Brown-Bold) format("svg")}@font-face{font-family:"Brown";src:url(../../fonts/Brown.eot),url(../fonts/Brown.eot?#iefix) format("embedded-opentype"),url(../fonts/Brown.woff2) format("woff2"),url(../fonts/Brown.woff) format("woff"),url(../fonts/Brown.ttf) format("truetype"),url(../fonts/Brown.svg#Brown-Bold) format("svg")}
+#main-container{color:#000D8C;padding:40px 0;}
+.container.wallet{position: relative;max-width: 700px;border: 5px solid #d2d2d2;background: #f1f1f1;padding: 0;}
+.container.wallet *{font-family:"Brown"}
+.container.wallet a,.container.wallet a:hover,.container.wallet a:focus{text-decoration:none;-o-transition:all .3s;-moz-transition:all .3s;-webkit-transition:all .3s;-ms-transition:all .3s;transition:all .3s}
+.container.wallet h1,.container.wallet h2{margin-top:10px;font-size:38px;font-weight:100;line-height:50px;margin-bottom:0}
+.container.wallet h3{font-size:22px;font-weight:300;line-height:30px}
+.container.wallet img{max-width:100%}
+::-moz-selection{background:#4aaf51;color:#fff;text-shadow:none}
+::selection{background:#4aaf51;color:#fff;text-shadow:none}
+.container.wallet .animated{-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;-ms-animation-fill-mode:both;-o-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-duration:1s;-moz-animation-duration:1s;-ms-animation-duration:1s;-o-animation-duration:1s;animation-duration:1s}
+.container.wallet .animated.hinge{-webkit-animation-duration:2s;-moz-animation-duration:2s;-ms-animation-duration:2s;-o-animation-duration:2s;animation-duration:2s}
+.container.wallet .swing{-webkit-transform-origin:top center;-moz-transform-origin:top center;-ms-transform-origin:top center;-o-transform-origin:top center;transform-origin:top center;-webkit-animation-name:swing;-moz-animation-name:swing;-ms-animation-name:swing;-o-animation-name:swing;animation-name:swing}
+.container.wallet div#wrapper{min-height: 70%;}
+.container.wallet .logo_header{color:#fff;max-width:50%;margin:30px auto;text-align:center;max-height:170px;}.container.wallet .Wallet_loading{color: #000D8C;font-size:22px}
+span.dot{font-size:25px;position:relative}
+span.dot.third{color:#000D8C}
+span.dot.second{color:#D600A9
+}
+span.dot.first{color:#FCBD0D}
+.container.wallet .header,.container.wallet .logo_header,.container.wallet .paginantion,.container.wallet .AccountBlock,.container.wallet div#succes,.container.wallet div#fail,.container.wallet span.error, .container.wallet label.error,.servicesBlock .services,.container.wallet a{display:-webkit-box;display:-moz-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}
+.container.wallet .formBlock{display: grid;text-align: center;margin: 30px;position: relative}
+.container.wallet span.error,.container.wallet label.error{color: #ff0000;font-size: 11px;position: absolute;right: 3%;top: 0;bottom: 0;margin: 0;}
+input{font-size: 18px;background: #000D8C;padding-left: 20px;}
+.container.wallet form.search-form{position: relative;margin-bottom: 10%}.container.wallet button.btn.btn-connecte{font-size: 15px;background: #000D8C}.container.wallet button,.container.wallet input{width: 100%;border-radius: 5px;border: 0;font-family: inherit;min-height: 50px;margin: 5px 0;}.container.wallet div#wrapper:before{content: '';position: absolute;height: 70%;width: 100%;bottom: 0;background: url(../images/WALLET-APP-BG.png);background-size: 115%;background-position: center;z-index: 0;opacity: .2;}.container.wallet span.pagin{position: relative;width: 15px;height: 15px;margin: 0 10px;border-radius: 50%;background: #cecece;}.container.wallet span.pagin.active{background: #FCBD0D}.container.wallet .paginantion:before{top:0;content: '';position: absolute;height: 1px;width: 80px;left: 0;right: 0;background: #cecece;margin: 7px auto;z-index: 0;}
+.container.wallet div#succes,.logo_header,.container.wallet div#fail{flex-direction:column}
+.container.wallet .AccountBlock,.container.wallet .logo_header,.container.wallet .paginantion,.container.wallet .logo_header,.container.wallet div#succes,.container.wallet .logo_header,.container.wallet div#fail,.container.wallet span.error, .container.wallet label.error,.servicesBlock .services,.container.wallet a{align-items:center}
+.container.wallet div#wrapper{position: relative;display: flow-root}
+.container.wallet .paginantion{clear: both;position: relative}
+.container.wallet div#succes span.msg,.container.wallet div#fail span.msg,.container.wallet .walletAmount,.container.wallet span.dot,.container.wallet .Userdata span.Usernam{font-family: Brown;}
+.container.wallet div#succes span.msg,.container.wallet div#fail span.msg{font-size: 2.7em;line-height: 1;letter-spacing: -2px;text-transform: uppercase;padding: 0 1em;}
+.container.wallet div#succes span.icon,.container.wallet div#fail span.icon{font-size: 10rem;margin-bottom: 10%;}
+.container.wallet div#succes,.container.wallet div#fail{position: absolute;bottom: 0;width: 100%;height: 100%;color: #fff;text-align: center; z-index:999;}
+.container.wallet div#succes{background: rgba(0, 204, 153, 0.9)}
+.container.wallet div#fail{background: rgba(194, 14, 26, 0.9)}
+.container.wallet button.btn.btn-connecte.btn-credit, .container.wallet button.btn.btn-connecte.btn-debit {display: inline-table;max-width: 45%;margin: 20px 0;}
+.container.wallet .walletAmount {text-align: center;font-size: 25px;text-transform: uppercase;line-height: 3;letter-spacing: -1px;}
+.container.wallet .header {background: #f1f1f1;}
+.container.wallet .walletAmount span.Amount {color: #b02f84;float:none;}
+.form-group{position: relative}
+.container.wallet .Userdata span {display: block;text-align: left;}
+.container.wallet button.btn.btn-connecte.btn-debit {float: left;background: #c20e1a}
+.container.wallet button.btn.btn-connecte.btn-debit:hover{background: #77070e}
+.container.wallet button.btn.btn-connecte.btn-credit {float: right;background: #00cc99}
+.container.wallet button.btn.btn-connecte.btn-credit:hover{background: #01ad82}
+.container.wallet .AccountBlock,.container.wallet .paginantion,.container.wallet div#succes,.container.wallet div#fail,.servicesBlock .services,.container.wallet a{justify-content: center}
+.container.wallet span.ativ_acc,.container.wallet span.notacc_acc {position: absolute;content: '';width: 20%;height: 20%;border-radius: 50%;right: 0;top: 0;}
+.container.wallet span.ativ_acc{background: #00cc99}
+.container.wallet span.notacc_acc{background: #e60003}
+.container.wallet .Userdata {margin-left: 30px;}
+.container.wallet .Userdata span.Usernam {font-size: 20px;}
+.container.wallet .Userpic:after {content: '';position: absolute;width: 1px;height: 100%;right: -35px;top: 0;background: #d4d4d4;}
+.container.wallet .Userpic{max-width: 100px;position: relative;margin-right: 30px}
+.container.wallet a{position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;}
+.container.wallet .pagin a{color: #FCBD0D}
+.servicesBlock .services {height: 120px;max-width: calc(100% / 3);width: calc(100% / 3 - 22px);border: 1px solid #000D8C;background: rgba(0, 2, 79, 0.4);padding: 20px 0;float: left;margin: 10px;border-radius: 10px;position: relative;}
+.services a {
+    padding: 20% 0;
+    display: block;
+    color: #000;
+    width: 100%;
+}
+.services.active a,.services:hover a {
+    color: #fff;
+}
+.services.off {
+    background: #e2e2e2;
+    border-color: #000D8C;
+}
+.services.active {
+    background: #000D8C;
+}
+@-webkit-keyframes fadeInLeft {
+0%{opacity:0;-webkit-transform:translateX(-20px)}
+100%{opacity:1;-webkit-transform:translateX(0)}
+}
+@-moz-keyframes fadeInLeft {
+0%{opacity:0;-moz-transform:translateX(-20px)}
+100%{opacity:1;-moz-transform:translateX(0)}
+}
+@-ms-keyframes fadeInLeft {
+0%{opacity:0;-ms-transform:translateX(-20px)}
+100%{opacity:1;-ms-transform:translateX(0)}
+}
+@-o-keyframes fadeInLeft {
+0%{opacity:0;-o-transform:translateX(-20px)}
+100%{opacity:1;-o-transform:translateX(0)}
+}
+@keyframes fadeInLeft {
+0%{opacity:0;transform:translateX(-20px)}
+100%{opacity:1;transform:translateX(0)}
+}
+.container.wallet .fadeInLeft{-webkit-animation-name:fadeInLeft;-moz-animation-name:fadeInLeft;-ms-animation-name:fadeInLeft;-o-animation-name:fadeInLeft;animation-name:fadeInLeft}
+@-webkit-keyframes fadeOutLeft {
+0%{opacity:1;-webkit-transform:translateX(0)}
+100%{opacity:0;-webkit-transform:translateX(-20px)}
+}
+@-moz-keyframes fadeOutLeft {
+0%{opacity:1;-moz-transform:translateX(0)}
+100%{opacity:0;-moz-transform:translateX(-20px)}
+}
+@-ms-keyframes fadeOutLeft {
+0%{opacity:1;-ms-transform:translateX(0)}
+100%{opacity:0;-ms-transform:translateX(-20px)}
+}
+@-o-keyframes fadeOutLeft {
+0%{opacity:1;-o-transform:translateX(0)}
+100%{opacity:0;-o-transform:translateX(-20px)}
+}
+@keyframes fadeOutLeft {
+0%{opacity:1;transform:translateX(0)}
+100%{opacity:0;transform:translateX(-20px)}
+}
+.container.wallet .fadeOutLeft{-webkit-animation-name:fadeOutLeft;-moz-animation-name:fadeOutLeft;-ms-animation-name:fadeOutLeft;-o-animation-name:fadeOutLeft;animation-name:fadeOutLeft}
+@-webkit-keyframes fadeOutRight {
+0%{opacity:1;-webkit-transform:translateX(0)}
+100%{opacity:0;-webkit-transform:translateX(20px)}
+}
+@-moz-keyframes fadeOutRight {
+0%{opacity:1;-moz-transform:translateX(0)}
+100%{opacity:0;-moz-transform:translateX(20px)}
+}
+@-ms-keyframes fadeOutRight {
+0%{opacity:1;-ms-transform:translateX(0)}
+100%{opacity:0;-ms-transform:translateX(20px)}
+}
+@-o-keyframes fadeOutRight {
+0%{opacity:1;-o-transform:translateX(0)}
+100%{opacity:0;-o-transform:translateX(20px)}
+}
+@keyframes fadeOutRight {
+0%{opacity:1;transform:translateX(0)}
+100%{opacity:0;transform:translateX(20px)}
+}
+.container.wallet .fadeOutRight{-webkit-animation-name:fadeOutRight;-moz-animation-name:fadeOutRight;-ms-animation-name:fadeOutRight;-o-animation-name:fadeOutRight;animation-name:fadeOutRight}
+
+@media (min-width: 600px){
+}
+@media (max-width: 767px) {
+}
+@media (max-width: 600px) {
+}
+@media only screen and (max-width: 550px){h1, h2{line-height: 1}.container.wallet{width: 95%}.container.wallet .Wallet_loading{font-size: 15px;margin: 20px 0 0;}#main-container{background: #000000;background-position: center;background-size: 50%;background-image: url(../images/WALLET-APP-BG.png)}}
+
+@media (max-width: 480px) {
+}

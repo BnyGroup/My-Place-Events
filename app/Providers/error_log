@@ -1,0 +1,2 @@
+[06-Apr-2018 01:05:18 Etc/GMT] PHP Fatal error:  Class 'Illuminate\Foundation\Support\Providers\RouteServiceProvider' not found in /home/gottkts/public_html/app/Providers/RouteServiceProvider.php on line 8
+[06-Apr-2018 01:05:29 Etc/GMT] PHP Fatal error:  Class 'Illuminate\Support\ServiceProvider' not found in /home/gottkts/public_html/app/Providers/BroadcastServiceProvider.php on line 8

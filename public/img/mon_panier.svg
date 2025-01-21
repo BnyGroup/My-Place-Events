@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="57" height="57" viewBox="0 0 57 57">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_6281" data-name="Rectangle 6281" width="32.585" height="35.751" fill="none" stroke="#fff" stroke-width="2"/>
+    </clipPath>
+  </defs>
+  <g id="Groupe_17028" data-name="Groupe 17028" transform="translate(-40.207 -337)">
+    <path id="Tracé_3530" data-name="Tracé 3530" d="M28.5,0A28.5,28.5,0,1,1,0,28.5,28.5,28.5,0,0,1,28.5,0Z" transform="translate(40.207 337)" fill="#d600a9"/>
+    <g id="Groupe_17027" data-name="Groupe 17027" transform="translate(51.415 347.295)" clip-path="url(#clip-path)">
+      <g id="Groupe_17026" data-name="Groupe 17026" transform="translate(-1124.477 -99.087)">
+        <path id="Union_5" data-name="Union 5" d="M14.226,26.023H5.512a1.675,1.675,0,0,1-1.574-1.309L.067,10.035A1.791,1.791,0,0,1,1.644,7.707H7.259C7.259,3.457,10.381,0,14.226,0s6.969,3.457,6.969,7.707h5.612a1.789,1.789,0,0,1,1.574,2.328l-3.868,14.68a1.678,1.678,0,0,1-1.576,1.309Zm0-18.316h4.628a4.9,4.9,0,0,0-4.628-5.121A4.9,4.9,0,0,0,9.6,7.707Z" transform="translate(1126.545 103.951)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>
